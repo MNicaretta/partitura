@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  user-select: none;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 460px;
+  max-width: 100vw;
+  padding: 2rem;
+}
+
+.center p {
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: -0.08em;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.actions button {
+  font-size: 48px;
+  font-weight: 400;
+  cursor: pointer;
+  background: none;
+  border: 0;
+}
